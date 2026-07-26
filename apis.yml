@@ -1,8 +1,25 @@
 aid: fashinza
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fashinza.png
 name: Fashinza
-description: 'Fashinza is a company surfaced as a portfolio company of accel, prosus-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: ecommerce. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Fashinza is a tech-enabled apparel manufacturing and supply-chain platform
+  that connects fashion brands and retailers with a vetted global network of garment
+  manufacturers. It streamlines end-to-end production: sourcing designs and fabrics,
+  AI-powered supplier matching, tech-pack and sample creation, real-time production
+  tracking, quality control, and merchandising and forecasting support so brands can
+  move from design to delivery in shortened 30-45 day cycles. Backed by Accel and
+  Prosus Ventures, the company operates a buyer login and a supplier onboarding surface
+  but publishes no public developer API, documentation, or SDKs at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/fashinza/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Ecommerce
+- Fashion
+- Apparel
+- Manufacturing
+- Supply Chain
+- Sourcing
+- B2B
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,4 +48,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.Fashinza.com
+  url: https://fashinza.com
+- type: SignUp
+  url: https://fashinza.com/get-started/
+- type: Login
+  url: https://fashinza.com/login/
+- type: PrivacyPolicy
+  url: https://fashinza.com/privacy-policy
+- type: TermsOfService
+  url: https://fashinza.com/terms
+- type: Support
+  url: https://fashinza.com/contact-us/
+- type: Blog
+  url: https://fashinza.com/brands-and-retail/news/
+- type: DomainSecurity
+  url: security/fashinza-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
