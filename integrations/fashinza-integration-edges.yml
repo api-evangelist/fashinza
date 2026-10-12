@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/fashinza/integrations
+- https://n8n.io/integrations/fashinza/
+- https://composio.dev/toolkits/fashinza
+- https://monid.ai/tools/fashinza
+checked:
+- https://composio.dev/toolkits/fashinza
+- https://monid.ai/tools/fashinza
+- https://n8n.io/integrations/fashinza/
+- https://zapier.com/apps/fashinza/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
